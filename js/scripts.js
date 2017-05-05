@@ -1,8 +1,8 @@
 // make sure number is positive
 function positiveNumber (input) {
-  if (input >= 0) {
+  if (input >= 0 ) {
     return true;
-  } else if (input < 0 ) {
+  } else {
     return false;
   }
 }
@@ -34,11 +34,13 @@ $(document).ready(function() {
   // submit is method
   $("form#user-input").submit(function(event) {
     event.preventDefault();
-    var input = parseInt($("input#number").val();
+    var input = parseInt($("input#number").val());
 
 
     var output = positiveNumber(input);
 
-    $(results).show();
+    $(results).append(positiveNumber);
+    console.log("ddd")
+
   });
 });
