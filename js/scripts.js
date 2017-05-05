@@ -1,11 +1,12 @@
 // make sure number is positive
 function positiveNumber (input) {
-  if (input >= 0 ) {
+  if (input > 0 ) {
     return true;
   } else {
     return false;
   }
 }
+
 console.log("ddd")
 
 
