@@ -19,7 +19,7 @@ $(document).ready(function() {
                   //console.log("ping");
                   resultsDiv.append('<span>pong</span><br>');
               }
-              else if((i%15)===0)
+              if((i%15)===0)
               {
                   //console.log("pingpong");
                   resultsDiv.append('<span>pingpong</span><br>');
